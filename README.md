@@ -1,29 +1,22 @@
 # Projet Three.js
 
-Un projet de base Three.js avec Vite.
+Projet universitaire pour l'apprentissage de Three.js - Travaux Pratiques et exercices.
 
-## Installation
+## Contenu du projet
 
-```bash
-npm install
-```
+### TP1 - Premières formes 3D
+- **Exercice 1** : Création d'une sphère avec éclairage (Phong material), gestion de la pause et contrôles OrbitControls
+- **Exercice 2** : Création d'un torus avec rendu double face et animations de rotation
 
-## Développement
+### TP2 - Système solaire
+Simulation d'un système solaire avec :
+  - Soleil, Terre et Lune avec textures réalistes
+  - Orbites et rotations
+  - Skybox (cube map)
+  - Interface GUI pour contrôler les paramètres
+  - Grilles d'axes pour chaque objet
+  - Statistiques de performance (Stats)
 
-```bash
-npm run dev
-```
+### Animations GSAP
+- Fichier racine (`index4.html`) : Expérimentation avec GSAP pour créer des animations d'apparition progressive (opacity et scale)
 
-Le projet sera accessible sur `http://localhost:5173`
-
-## Build
-
-```bash
-npm run build
-```
-
-## Aperçu du build
-
-```bash
-npm run preview
-```
