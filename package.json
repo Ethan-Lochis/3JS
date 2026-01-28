@@ -1,0 +1,25 @@
+{
+  "name": "threejs-project",
+  "version": "1.0.0",
+  "description": "Projet Three.js",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "threejs",
+    "3d",
+    "webgl"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2",
+    "three": "^0.160.0"
+  }
+}
