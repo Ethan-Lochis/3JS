@@ -88,7 +88,7 @@ async function main() {
   // Plateforme pour voir les ombres
   const platformGeometry = new THREE.BoxGeometry(500, 1, 500);
   const platformMaterial = new THREE.MeshStandardMaterial({
-    color: 0x808080,
+    color: 0xcccccc,
     roughness: 0.8,
     metalness: 0.2,
   });
@@ -146,7 +146,7 @@ async function main() {
     // Créer un sous-groupe pour chaque pendule
     const pendulumGroup = new THREE.Group();
     
-    // Position en X (espacer les pendules le long de l'axe X)
+    // Position en X (espacements)
     const xPos = (i - numPendulums / 2) * spacing;
     pendulumGroup.position.x = xPos;
     
