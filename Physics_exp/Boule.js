@@ -214,7 +214,7 @@ world.addBody(borderFloorBody);
 
 // Créer plein de sphères pour remplir le cube
 const spheres = [];
-for(let i = 0; i < 2300; i++) {
+for(let i = 0; i < 23; i++) {
   const sphereGeometry = new THREE.SphereGeometry(0.3, 16, 16);
   const sphereMaterial = new THREE.MeshStandardMaterial({ 
     color: new THREE.Color().setHSL(Math.random(), 0.7, 0.6),
